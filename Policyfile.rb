@@ -14,3 +14,4 @@ run_list 'acme_linux_app::default'
 
 # Specify a custom source for a single cookbook:
 cookbook 'acme_linux_app', path: '.'
+cookbook 'acme_application', github: 'srb3/acme_application', tag: 'v0.0.3'
